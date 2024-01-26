@@ -5,3 +5,5 @@ THis portfolio includes the following:
 2.Typescript animation for my designation and interest that works as the site loads. 
 3. A tabular structure to denote my work experience and education. 
 4. Footer: Contact details.
+
+Here's the link for you: https://dakshkhande.github.io/My-Portfolio/

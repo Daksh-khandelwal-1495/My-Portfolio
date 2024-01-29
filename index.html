@@ -11,153 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap"
       rel="stylesheet"
     />
-    <style>
-      * {
-        margin: 0;
-        padding: 0;
-      }
-
-      body {
-        background-color: rgb(0, 0, 33);
-        color: white;
-        font-family: "Poppins", sans-serif;
-      }
-
-      nav {
-        display: flex;
-        justify-content: space-around;
-        align-items: center;
-        height: 80px;
-        background-color: rgb(18, 18, 62);
-      }
-
-      nav ul {
-        display: flex;
-        justify-content: center;
-      }
-
-      nav ul li {
-        list-style: none;
-        margin: 0 23px;
-      }
-      nav ul li a {
-        text-decoration: none;
-        color: white;
-      }
-      nav ul li a:hover {
-        color: rgb(153, 153, 226);
-        font-size: 1.2rem;
-      }
-
-      main hr {
-        border: 0;
-        background: #9c97f1;
-        height: 1.2px;
-        margin: 60px 84px;
-      }
-
-      .left {
-        font-size: 1.5rem;
-      }
-
-      .firstSection {
-        display: flex;
-        align-items: center;
-        justify-content: space-around;
-        margin: 130px 0;
-      }
-      .firstSection > div {
-        width: 30%;
-      }
-
-      .leftSection {
-        font-size: 3rem;
-      }
-      .leftSection .buttons{
-        padding: 50px 0;
-      }
-      .leftSection .btn{
-        padding: 12px;
-        background: #1e2167;
-        color: white;
-        border: 2px solid white;
-        border-radius: 6px;
-        font-size: 20px;
-        cursor: pointer;
-      }
-      .RightSection img {
-        width: 80%;
-      }
-      .purple {
-        color: rgb(170, 107, 228);
-      }
-      .text-grey {
-        color: gray;
-      }
-      #element {
-        color: rgb(170, 107, 228);
-      }
-
-      .secondSection {
-        max-width: 80vw;
-        margin: auto;
-        height: 80vh;
-      }
-      .secondSection h1 {
-        font-size: 1.9rem;
-      }
-      .secondSection .box {
-        background: white;
-        width: 73vw;
-        height: 2px;
-        margin: 56px 0;
-        display: flex;
-      }
-      .secondSection .vertical {
-        height: 93px;
-        width: 1px;
-        background-color: white;
-        margin: 0 100px;
-      }
-      .image-top {
-        width: 23px;
-        position: relative;
-        top: -32px;
-        left: -9;
-      }
-      .vertical-title {
-        position: relative;
-        top: 75px;
-        width: 150px;
-      }
-      .vertical-desc {
-        position: relative;
-        top: 86px;
-        color: gray;
-        width: 150px;
-        font-size: 12px;
-      }
-      footer {
-        background-color: #0e0e1a;
-       
-      }
-      .footer {
-        display: flex;
-        padding: 23px 122px;
-        justify-content: space-evenly;
-      }
-      .footer ul{
-        list-style: none;
-      }
-      .footer > div{
-        width: 223px;
-      }
-      footer .footer-rights{
-        text-align: center;
-        color: gray;
-        padding: 12px 0;
-      }
-    </style>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
     <header>
@@ -165,9 +19,9 @@
         <div class="left">Daksh's Portfolio</div>
         <div class="right">
           <ul>
-            <li><a href="/">About</a></li>
-            <li><a href="/">Login</a></li>
-            <li><a href="/">signup</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="#middle">Experience</a></li>
+            <li><a href="/">Contact</a></li>
             <li><a href="/">Home</a></li>
           </ul>
         </div>
@@ -182,14 +36,20 @@
 
           <span id="element"></span>
           <br>
+          <a href="https://harlequin-emlynne-45.tiiny.site/">
           <button class="btn">Download Resume</button>
-          <button class="btn">visit Github</button>
+        </a>
+        <a href="https://github.com/Daksh-khandelwal-1495">
+          <button class="btn">Visit Github</button>
+        </a>  
+        
         </div>
         <div class="RightSection">
           <img src="developer_png.png" alt="" />
         </div>
       </section>
       <hr />
+      <div id="middle">
       <section class="secondSection">
         <span class="text-grey">Work I have done so far</span>
         <h1>Experience So Far</h1>
@@ -237,6 +97,7 @@
           </div>
         </div>
       </section>
+    </div>
     </main>
     <footer>
       <div class="footer">
@@ -245,26 +106,26 @@
         </div>
         <div class="second">
           <ul>
-            <li>Home</li>
-            <li>About</li>
+            <li><a href="mailto:dakshkh.dk@gmail.com">Mail</a></li>
+            <li><a href="https://www.linkedin.com/in/daksh-khandelwal/">Linkedin</a></li>
             <li>Projects</li>
-            <li>Contact</li>
+            <li><a href="https://twitter.com/Daksh_746">Twitter</a></li>
           </ul>
         </div>
         <div class="third">
             <ul>
-                <li>Home</li>
-                <li>About</li>
+                <li><a href="mailto:dakshkh.dk@gmail.com">Mail</a></li>
+                <li><a href="https://www.linkedin.com/in/daksh-khandelwal/">Linkedin</a></li>
                 <li>Projects</li>
-                <li>Contact</li>
+                <li><a href="https://twitter.com/Daksh_746">Twitter</a></li>
               </ul>
         </div>
         <div class="fourth">
             <ul>
-                <li>Home</li>
-                <li>About</li>
-                <li>Projects</li>
-                <li>Contact</li>
+              <li><a href="mailto:dakshkh.dk@gmail.com">Mail</a></li>
+              <li><a href="https://www.linkedin.com/in/daksh-khandelwal/">Linkedin</a></li>
+              <li>Projects</li>
+              <li><a href="https://twitter.com/Daksh_746">Twitter</a></li>
               </ul>
         </div>
       </div>

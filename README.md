@@ -6,4 +6,4 @@ THis portfolio includes the following:
 3. A tabular structure to denote my work experience and education. 
 4. Footer: Contact details.
 
-Here's the link for you: https://dakshkhande.github.io/My-Portfolio/
+Here's the link for you: https://daksh-khandelwal-1495.github.io/My-Portfolio/
